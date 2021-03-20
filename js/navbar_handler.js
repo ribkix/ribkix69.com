@@ -30,9 +30,9 @@ NavbarJS_create_item({
 
 NavbarJS_create_item({
     type: NavbarJS_ITEM_LINK,
-    inner: "SMP",
+    inner: "Discord",
     href: "https://discord.gg/DcxBkunxzk",
-    id: "navbar-item-smp",
+    id: "navbar-item-discord",
     target: "_blank",
     classlist_item: ["nav-item"],
     classlist_link: ["nav-link","text-white"]
