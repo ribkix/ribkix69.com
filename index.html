@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ribkix69</title>
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" href="css/boobstrip.min.css">
+        <link rel="stylesheet" href="css/plyr.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=".."><img src="img/logo_alpha.png" alt="" width="30" height="30"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar"></ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+
+        <center>
+            <h1>ribkix69</h1>
+            <p>free bobux below *NOT CLICKBAIT*</p>
+
+            <div class="video">
+                <video id="player" playsinline controls data-poster="img/free bobux.jpg">
+                    <source src="src/not rick roll.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </center>
+
+        <script src="js/boobstrip.bundle.min.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/navbar_handler.js"></script>
+        <script src="js/plyr.polyfilled.js"></script>
+        <script>
+            const pageItem = document.getElementById("navbar-item-home");
+
+            pageItem.classList.add("active");
+            pageItem.classList.remove("text-white");
+            pageItem.classList.add("text-primary");
+
+            const player = new Plyr("#player");
+        </script>
+    </body>
+</html>
