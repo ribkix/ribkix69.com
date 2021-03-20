@@ -3,7 +3,7 @@ NavbarJS_set_navbar(document.getElementById("navbar"));
 NavbarJS_create_item({
     type: NavbarJS_ITEM_LINK,
     inner: "Home",
-    href: "index.html",
+    href: "..",
     id: "navbar-item-home",
     classlist_item: ["nav-item"],
     classlist_link: ["nav-link","text-white"]
